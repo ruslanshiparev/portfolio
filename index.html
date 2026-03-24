@@ -269,10 +269,13 @@
       .stats{justify-content:center}
       .showcase-problem{grid-template-columns:1fr}
       .skills-grid{grid-template-columns:1fr}
+      .tag-cloud{margin-top:40px}
       .timeline::before{left:24px}
       .tl-item:nth-child(odd),.tl-item:nth-child(even){justify-content:flex-start;padding-left:64px;padding-right:0}
       .tl-dot{left:24px}
       .edu-grid{grid-template-columns:1fr}
+      .section-glow::before{width:400px;height:400px}
+      .gallery-item img{height:auto}
     }
     @media(max-width:768px){
       .nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(10,10,26,.95);backdrop-filter:blur(20px);flex-direction:column;padding:24px;gap:20px;border-bottom:1px solid rgba(255,255,255,.06)}
@@ -280,10 +283,70 @@
       .nav-burger{display:flex}
       .hero-text h1{font-size:2.4rem}
       .typewriter-line{font-size:1.1rem}
+      .section{padding:60px 0}
       .section-title{font-size:1.8rem}
+      .section-subtitle{font-size:.95rem;margin-bottom:40px}
       .spec-cards{grid-template-columns:1fr}
       .contact-cards{flex-direction:column;align-items:center}
+      .contact-card{width:100%;min-width:unset}
       .showcase-results{grid-template-columns:repeat(2,1fr)}
+      .result-card{padding:16px 12px}
+      .result-card .big{font-size:1.5rem}
+      .modules-grid{grid-template-columns:1fr}
+      .about-photo{width:200px;height:200px;font-size:3.5rem}
+      .stats{gap:24px}
+      .stat-number{font-size:2rem}
+      .floating-badge{font-size:.75rem;padding:6px 14px}
+      .glow-divider{max-width:80%}
+      .section-glow::before{width:300px;height:300px;opacity:.5}
+      .gallery-caption{padding:14px 16px}
+      .gallery-caption h4{font-size:.95rem}
+      .gallery-caption p{font-size:.8rem}
+      .gallery-grid{gap:24px}
+      .showcase-problem{gap:12px}
+      .problem-card{padding:18px}
+      .problem-card h4{font-size:.92rem}
+      .skill-bars{gap:18px}
+      .tag-cloud{gap:8px}
+      .tag{padding:6px 14px;font-size:.78rem}
+      .tl-content{padding:18px}
+      .tl-content h3{font-size:1rem}
+      .edu-card{padding:18px;gap:12px}
+      .achieve-badge{padding:16px 18px;gap:12px}
+      .achieve-icon{width:48px;height:48px}
+      .contact-form{padding:0 4px}
+      .social-links{gap:12px}
+      .social-link{width:44px;height:44px}
+      #particles-canvas{display:none}
+      .hero::before{opacity:.5}
+    }
+    @media(max-width:480px){
+      .container{padding:0 16px}
+      .hero-text h1{font-size:2rem}
+      .hero-desc{font-size:.92rem}
+      .typewriter-line{font-size:1rem;min-height:1.6em}
+      .section{padding:48px 0}
+      .section-title{font-size:1.5rem}
+      .section-subtitle{font-size:.88rem;margin-bottom:32px}
+      .showcase-results{grid-template-columns:1fr 1fr;gap:12px}
+      .result-card .big{font-size:1.3rem}
+      .result-card p{font-size:.72rem}
+      .stat-number{font-size:1.8rem}
+      .stat-label{font-size:.75rem}
+      .stats{gap:20px}
+      .about-photo{width:160px;height:160px;font-size:3rem}
+      .btn{padding:12px 24px;font-size:.92rem}
+      .hero-btns{gap:12px}
+      .floating-badge{font-size:.7rem;padding:5px 12px;gap:5px}
+      .nav-inner{height:60px}
+      html{scroll-padding-top:68px}
+      .hero{padding-top:60px}
+      .tl-item:nth-child(odd),.tl-item:nth-child(even){padding-left:48px}
+      .timeline::before{left:16px}
+      .tl-dot{left:16px;width:12px;height:12px}
+      .spec-cards{gap:12px}
+      .spec-card{padding:18px}
+      .contact-card{padding:20px 24px}
     }
   </style>
 </head>
